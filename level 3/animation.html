@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation</title>
+    <style>
+        .rotate{
+            height: 70px;
+            width: 70px;
+            border-radius: 10px;
+            background-color: darkcyan;
+            text-align: center;
+            position: relative;
+            top: 50px;
+            left: 50px;
+           animation-name: ghukkad;
+           animation-duration: 2s;
+           animation-timing-function: ease-in-out;
+           animation-delay: 1s;
+           animation-iteration-count: 5;
+           animation-direction: alternate;
+           
+           
+        }
+        
+  @keyframes ghukkad {
+    from{left: 50px}
+    to{left: 400px}
+    
+  }
+
+    
+    </style>
+</head>
+<body>
+    <div class="rotate">animation</div>
+</body>
+</html>

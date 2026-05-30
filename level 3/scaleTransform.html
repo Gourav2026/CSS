@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>scale transform</title>
+    <style>
+        .rotate{
+            height: 70px;
+            width: 70px;
+            border-radius: 10px;
+            background-color: darkcyan;
+            text-align: center;
+            position: relative;
+            top: 50px;
+            left: 50px;
+           
+        }
+        .rotate:hover{
+             height: 70px;
+            width: 70px;
+            border-radius: 10px;
+            background-color: darkcyan;
+            text-align: center;
+            position: relative;
+            top: 50px;
+            left: 50px;
+            
+            transform: scale(2);
+             /* transform: scalex(2);
+              transform: scaley(2); */
+
+
+
+
+        transition-property: all;
+        transition-duration: 0.3s;
+        transition-timing-function: ease-in-out;
+        transition-delay: 0s;
+        margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="rotate">scale</div>
+</body>
+</html>
